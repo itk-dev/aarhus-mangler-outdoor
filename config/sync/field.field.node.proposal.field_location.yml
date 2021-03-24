@@ -1,0 +1,21 @@
+uuid: c6fc0f4a-1d4f-4820-8b67-b5cd741f94d8
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_location
+    - node.type.proposal
+  module:
+    - geolocation
+id: node.proposal.field_location
+field_name: field_location
+entity_type: node
+bundle: proposal
+label: 'Hvor skal idrætsfaciliteten placeres?'
+description: 'Vælg på kortet hvor dit  forslag til ny idrætsfacilitet skal placeres.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

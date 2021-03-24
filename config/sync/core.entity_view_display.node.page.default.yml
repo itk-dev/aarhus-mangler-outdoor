@@ -1,0 +1,40 @@
+uuid: d27fccae-16d7-43fb-acc9-befb7cb81c00
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_video
+    - node.type.page
+  module:
+    - text
+    - user
+    - video_embed_field
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_video:
+    weight: 0
+    label: hidden
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+hidden:
+  langcode: true
+  links: true

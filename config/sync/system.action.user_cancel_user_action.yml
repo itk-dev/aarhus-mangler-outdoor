@@ -1,0 +1,13 @@
+uuid: cfa06426-3c61-4760-b8a0-d0cc77da2110
+langcode: da
+status: true
+dependencies:
+  module:
+    - user
+_core:
+  default_config_hash: nvrL9bFilzBvm2bjO9rQnFDpBA7dBBUjShSSt6NS-DU
+id: user_cancel_user_action
+label: 'Opsig de valgte brugerkonti'
+type: user
+plugin: user_cancel_user_action
+configuration: {  }

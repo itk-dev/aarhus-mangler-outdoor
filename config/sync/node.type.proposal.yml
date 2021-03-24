@@ -1,0 +1,18 @@
+uuid: c790e9fa-1913-4f92-ba4f-da528d64a95c
+langcode: da
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Forslag
+type: proposal
+description: ''
+help: "Hvilke idrætsfaciliteter mangler du?\r\nI løbet af efteråret beslutter Byrådet en investeringsplan for de næste ti år. Det vil sige, at de tager stilling til, hvordan pengene til byggerier skal fordeles i de næste ti år. Fremtiden for kommende nye idrætsfaciliteter afgøres derfor i de kommende måneder. Kultur og Borgerservice i Aarhus Kommune og Idrætssamvirket Aarhus vil gerne have dine input til, hvad der mangler og, hvor der mangler idrætsfaciliteter nu og i de kommende år. Du kan indtaste dit ønske nedenfor. Undersøg dog gerne, om nogen allerede har foreslået det samme som dig. Forslagene vil indgå i Byrådets arbejde med investeringsplanen. Se <a href=\"/video\">præsentationsvideo</a>."
+new_revision: false
+preview_mode: 0
+display_submitted: false

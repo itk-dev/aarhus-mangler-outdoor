@@ -1,0 +1,22 @@
+uuid: a44873d5-4f5d-4456-88d0-2a106f651f47
+langcode: da
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sportsfaciliteter
+_core:
+  default_config_hash: 9RnnTUBcn0WRWXfrGOnId2H0Q31uQUeu_F5TnDxl2yg
+id: sportsfaciliteter_messages
+theme: sportsfaciliteter
+region: header
+weight: -50
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

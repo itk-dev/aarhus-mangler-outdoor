@@ -1,0 +1,22 @@
+uuid: 75d1eac5-a2c6-4165-95e5-39fdd6ab5195
+langcode: da
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - sportsfaciliteter
+_core:
+  default_config_hash: iggZSiUKz4mYP1YPJ8SsUfFu79HIgOTt6IDy3Up59aM
+id: sportsfaciliteter_powered
+theme: sportsfaciliteter
+region: footer
+weight: -10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

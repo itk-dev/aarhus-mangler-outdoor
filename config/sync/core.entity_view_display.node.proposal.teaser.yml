@@ -1,0 +1,37 @@
+uuid: a62ef130-c91d-4dc6-91f6-71829f8e343e
+langcode: da
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.proposal.field_consent
+    - field.field.node.proposal.field_description
+    - field.field.node.proposal.field_email
+    - field.field.node.proposal.field_location
+    - field.field.node.proposal.field_name
+    - field.field.node.proposal.field_phone
+    - field.field.node.proposal.field_proposer
+    - field.field.node.proposal.field_proposer_details
+    - node.type.proposal
+  module:
+    - user
+id: node.proposal.teaser
+targetEntityType: node
+bundle: proposal
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_consent: true
+  field_description: true
+  field_email: true
+  field_location: true
+  field_name: true
+  field_phone: true
+  field_proposer: true
+  field_proposer_details: true
+  langcode: true

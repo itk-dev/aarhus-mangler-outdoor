@@ -1,0 +1,19 @@
+uuid: 2f7e8846-1400-47a1-9b58-b4ed4f9de598
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone
+    - node.type.proposal
+id: node.proposal.field_phone
+field_name: field_phone
+entity_type: node
+bundle: proposal
+label: 'Dit telefonnummer (bliver ikke offentliggjort)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

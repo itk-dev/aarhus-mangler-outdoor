@@ -1,0 +1,11 @@
+uuid: 31ac08c1-e9d5-4cc4-925d-7286263d8e3a
+langcode: da
+status: true
+dependencies:
+  config:
+    - node.type.proposal
+id: node.proposal
+target_entity_type_id: node
+target_bundle: proposal
+default_langcode: site_default
+language_alterable: false

@@ -1,0 +1,23 @@
+uuid: f1646503-2aee-4edd-a1aa-7514e88903d0
+langcode: da
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sportsfaciliteter
+id: sitebranding
+theme: sportsfaciliteter
+region: footer
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'I samarbejde mellem'
+  provider: system
+  label_display: visible
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

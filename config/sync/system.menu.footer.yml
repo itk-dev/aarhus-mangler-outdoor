@@ -1,0 +1,10 @@
+uuid: b306b8ad-92bb-4b5b-ae8f-f0b41bdf7bf2
+langcode: da
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 7yrlW5z9zdg2eBucB2GPqXKSMQfH9lSRSO4DbWF7AFc
+id: footer
+label: Sidefod
+description: 'Links til informationen om sitet'
+locked: true

@@ -1,0 +1,13 @@
+uuid: 21c2b480-a42b-43ce-828d-a4fff6cc6bef
+langcode: da
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: tWOIjSMobEWOFZddMkNqb9JySbOVwE1diC6NRqcfLTk
+id: comment_unpublish_action
+label: 'Skjul kommentarer'
+type: comment
+plugin: 'entity:unpublish_action:comment'
+configuration: {  }

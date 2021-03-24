@@ -1,0 +1,29 @@
+schemas:
+  bootstrap: 8000
+  sportsfaciliteter: 8000
+favicon:
+  mimetype: image/vnd.microsoft.icon
+  path: ''
+  url: 'http://0.0.0.0:32800/themes/sportsfaciliteter/favicon.ico'
+  use_default: true
+fluid_container: 1
+table_responsive: '-1'
+breadcrumb: '0'
+cdn_theme: bootstrap
+cdn_cache_ttl_versions: '604800'
+cdn_cache_ttl_themes: '604800'
+cdn_cache_ttl_assets: '0'
+cdn_cache_ttl_library: '0'
+reset_http_request_cache: ''
+table: ''
+features:
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
+  node_user_picture: true
+logo:
+  path: ''
+  url: ''
+  use_default: true
+forms_smart_descriptions: 0
+langcode: da

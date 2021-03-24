@@ -1,0 +1,27 @@
+uuid: 3a23f93b-4b06-43cb-9849-32ab0043435e
+langcode: da
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_proposer
+field_name: field_proposer
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Mit eget ønske'
+      label: 'Mit eget ønske'
+    -
+      value: 'For forening eller gruppering'
+      label: 'For forening eller gruppering'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

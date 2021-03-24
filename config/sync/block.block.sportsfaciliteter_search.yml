@@ -1,0 +1,23 @@
+uuid: 185b7263-d85d-454d-bff2-c8bb373d124c
+langcode: da
+status: false
+dependencies:
+  module:
+    - search
+  theme:
+    - sportsfaciliteter
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: sportsfaciliteter_search
+theme: sportsfaciliteter
+region: sidebar_second
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility: {  }

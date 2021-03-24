@@ -1,0 +1,22 @@
+uuid: f0ea62c2-0180-4cae-95ff-fe8e30368808
+langcode: da
+status: true
+dependencies:
+  theme:
+    - sportsfaciliteter
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: sportsfaciliteter_local_tasks
+theme: sportsfaciliteter
+region: header
+weight: 10
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

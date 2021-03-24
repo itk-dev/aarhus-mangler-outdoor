@@ -1,0 +1,19 @@
+uuid: af05fa97-5540-4d61-97ef-86c0cc32ee23
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email
+    - node.type.proposal
+id: node.proposal.field_email
+field_name: field_email
+entity_type: node
+bundle: proposal
+label: 'Din e-mailadresse (bliver ikke offentliggjort)'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

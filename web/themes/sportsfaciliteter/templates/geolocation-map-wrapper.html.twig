@@ -1,0 +1,21 @@
+{% if 'node/add/proposal' in url('<current>')|render|render %}
+
+<h4>Vælg på kortet hvor dit forslag skal ligge</h4>
+
+{% endif %}
+
+<div {{ attributes }}>
+  <div class="geolocation-map-controls">
+    {% if controls is not empty %}
+      {% for control in controls %}
+        {{ control }}
+      {% endfor %}
+    {% endif %}
+  </div>
+
+  <div class="geolocation-map-container js-show"></div>
+
+  {% if children is not empty %}
+    {{ children }}
+  {% endif %}
+</div>

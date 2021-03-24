@@ -1,0 +1,22 @@
+uuid: e4676352-7dd7-40ba-b185-1d5e94c19432
+langcode: da
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - sportsfaciliteter
+_core:
+  default_config_hash: MhtNdV__HKRTab0ZPjkPNfYL4Ng4UPBucDLoC7Rg5Eo
+id: sportsfaciliteter_help
+theme: sportsfaciliteter
+region: help
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

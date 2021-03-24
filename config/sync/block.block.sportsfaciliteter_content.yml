@@ -1,0 +1,22 @@
+uuid: 2c0a6fe1-e62c-4fee-91da-d3bd00cfa26f
+langcode: da
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - sportsfaciliteter
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: sportsfaciliteter_content
+theme: sportsfaciliteter
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: cc4a4892-c364-4b44-98dd-299250f2107b
+langcode: da
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_proposer
+    - node.type.proposal
+  module:
+    - options
+id: node.proposal.field_proposer
+field_name: field_proposer
+entity_type: node
+bundle: proposal
+label: 'Er det dit eget ønske eller er du repræsentant for en forening eller gruppering?'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string
