@@ -1,4 +1,4 @@
-# Sports-facilities proposal system
+# Aarhus Mangler Outdoor proposal system
 
 ## Project setup
 
@@ -23,3 +23,14 @@ Export drupal configutation
 Sub-theme located in:
 
 web/themes/sportsfaciliteter
+
+## Deployment
+
+```sh
+git clone git@github.com:itk-dev/aarhus-mangler-outdoor.git
+git checkout main
+
+composer install --no-dev
+
+drush si --existing-config
+```

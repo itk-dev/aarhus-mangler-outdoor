@@ -111,7 +111,7 @@ content:
             weight: 0
             settings:
               position: topright
-              default_label: false
+              default_label: ''
               tile_layer_providers:
                 OpenStreetMap:
                   'OpenStreetMap Mapnik':

@@ -77,11 +77,6 @@
                 "      composer remove drupal/core-project-message"
             ]
         },
-        "patches": {
-            "drupal/geolocation": {
-                "An option to hide Lan/Lot text fields": "https://www.drupal.org/files/issues/2020-02-14/geolocation-hide_text_fields-3113703-2-D8.patch"
-            }
-        },
         "enable-patching": true
     }
 }
