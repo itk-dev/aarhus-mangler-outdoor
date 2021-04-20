@@ -1046,10 +1046,9 @@ display:
         title: 'Alle forslag'
         menu_name: main
       access:
-        type: role
+        type: perm
         options:
-          role:
-            export: export
+          perm: 'access content'
       defaults:
         access: false
     cache_metadata:
@@ -1058,7 +1057,7 @@ display:
         - 'languages:language_content'
         - 'languages:language_interface'
         - 'user.node_grants:view'
-        - user.roles
+        - user.permissions
       tags:
         - 'config:field.storage.node.field_location'
   rest_export_1:
@@ -1666,8 +1665,12 @@ display:
           items_per_page: 0
           offset: 0
       access:
-        type: none
-        options: {  }
+        type: role
+        options:
+          role:
+            export: export
+      auth:
+        - basic_auth
     cache_metadata:
       max-age: -1
       contexts:
@@ -1675,6 +1678,7 @@ display:
         - 'languages:language_interface'
         - request_format
         - 'user.node_grants:view'
+        - user.roles
       tags:
         - 'config:field.storage.node.field_consent'
         - 'config:field.storage.node.field_description'
