@@ -13,6 +13,7 @@ dependencies:
     - field.storage.node.field_proposer_details
     - node.type.proposal
     - system.menu.main
+    - user.role.export
   module:
     - geolocation
     - node
@@ -1044,13 +1045,20 @@ display:
         type: normal
         title: 'Alle forslag'
         menu_name: main
+      access:
+        type: role
+        options:
+          role:
+            export: export
+      defaults:
+        access: false
     cache_metadata:
       max-age: -1
       contexts:
         - 'languages:language_content'
         - 'languages:language_interface'
         - 'user.node_grants:view'
-        - user.permissions
+        - user.roles
       tags:
         - 'config:field.storage.node.field_location'
   rest_export_1:
