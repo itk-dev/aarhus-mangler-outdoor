@@ -22,7 +22,7 @@ tips:
   language-edit-langcode:
     id: language-edit-langcode
     plugin: text
-    label: 'Language code'
+    label: Sprogkode
     body: '<p>Du kan ikke ændre en sprogkode på sitet. Det skyldes at systemet bruger koden til at holde styr på sproget.</p>'
     weight: 2
     attributes:

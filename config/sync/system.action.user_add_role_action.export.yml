@@ -1,0 +1,14 @@
+uuid: a4c05f80-125b-4c54-8048-66c9c8c3902b
+langcode: da
+status: true
+dependencies:
+  config:
+    - user.role.export
+  module:
+    - user
+id: user_add_role_action.export
+label: 'Add the export role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: export
