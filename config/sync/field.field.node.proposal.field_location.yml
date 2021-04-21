@@ -11,7 +11,7 @@ id: node.proposal.field_location
 field_name: field_location
 entity_type: node
 bundle: proposal
-label: 'Hvor skal idrætsfaciliteten placeres?'
+label: 'Hvor skal outdoor-faciliteten placeres?'
 description: 'Vælg på kortet hvor dit  forslag til ny idrætsfacilitet skal placeres.'
 required: true
 translatable: false

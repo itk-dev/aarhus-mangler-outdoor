@@ -10,11 +10,15 @@ Install requiered packages
 
 `docker-compose composer install`
 
-Import drupal configutation
+Site install
+
+`docker-compose drush site-install minimal --existing-config --yes`
+
+Import drupal configuration
 
 `docker-compose vendor/bin/drush config-import`
 
-Export drupal configutation
+Export drupal configuration
 
 `docker-compose vendor/bin/drush config-export`
 

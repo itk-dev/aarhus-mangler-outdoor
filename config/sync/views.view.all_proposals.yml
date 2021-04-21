@@ -13,6 +13,7 @@ dependencies:
     - field.storage.node.field_proposer_details
     - node.type.proposal
     - system.menu.main
+    - user.role.export
   module:
     - geolocation
     - node
@@ -1044,6 +1045,12 @@ display:
         type: normal
         title: 'Alle forslag'
         menu_name: main
+      access:
+        type: perm
+        options:
+          perm: 'access content'
+      defaults:
+        access: false
     cache_metadata:
       max-age: -1
       contexts:
@@ -1658,8 +1665,12 @@ display:
           items_per_page: 0
           offset: 0
       access:
-        type: none
-        options: {  }
+        type: role
+        options:
+          role:
+            export: export
+      auth:
+        - basic_auth
     cache_metadata:
       max-age: -1
       contexts:
@@ -1667,6 +1678,7 @@ display:
         - 'languages:language_interface'
         - request_format
         - 'user.node_grants:view'
+        - user.roles
       tags:
         - 'config:field.storage.node.field_consent'
         - 'config:field.storage.node.field_description'
