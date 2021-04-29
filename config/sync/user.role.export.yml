@@ -6,4 +6,8 @@ id: export
 label: Export
 weight: 3
 is_admin: null
-permissions: {  }
+permissions:
+  - 'view field_consent'
+  - 'view field_email'
+  - 'view field_name'
+  - 'view field_phone'
